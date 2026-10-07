@@ -1,0 +1,6 @@
+{
+  "name": "مجمع اليقين لطب وتقويم الأسنان | DentalOS SaaS",
+  "description": "منصة مجمع اليقين لطب وتقويم الأسنان التخصصي - نموذج SaaS سينمائي متكامل لعيادات ومجمعات طب الأسنان بتصميم عربي أصيل ودعم ثنائي اللغة وميزات حجز ذكية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
