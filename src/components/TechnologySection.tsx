@@ -10,6 +10,10 @@ import {
   ArrowRight,
   ArrowLeft
 } from 'lucide-react';
+import receptionHallImg from '../assets/images/clinic_reception_hall_1791362593320.jpg';
+import clinicInteriorImg from '../assets/images/clinic_interior_luxury_1791358566335.jpg';
+import sterilizationLabImg from '../assets/images/clinic_sterilization_lab_1791362604243.jpg';
+import dentalScanImg from '../assets/images/dental_scan_technology_1791358719900.jpg';
 
 export const TechnologySection: React.FC = () => {
   const { config, isRTL, scrollToBooking } = useClinic();
@@ -23,7 +27,7 @@ export const TechnologySection: React.FC = () => {
       nameEn: 'Grand Reception Atrium',
       tagAr: 'معايير الراحة الفندقية',
       tagEn: 'Luxury Sanctuary',
-      image: '/src/assets/images/clinic_reception_hall_1791362593320.jpg',
+      image: receptionHallImg,
       descAr: 'تصميم معماري فاخر يعتمد على الحجر الطبيعي والإنارة غير المباشرة لتوفير بيئة استرخاء تامة تعزل ضوضاء المدينة وتبعث على الطمأنينة.',
       descEn: 'Architectural serenity combining warm limestone and indirect illumination for total relaxation.',
       featureAr: 'صالات ضيافة خاصة ومواقف سيارات محجوزة',
@@ -36,7 +40,7 @@ export const TechnologySection: React.FC = () => {
       nameEn: '3D Scanning & Consultation Suites',
       tagAr: 'تقنيات المسح الضوئي المباشر',
       tagEn: 'Direct Optical 3D Scans',
-      image: '/src/assets/images/clinic_interior_luxury_1791358566335.jpg',
+      image: clinicInteriorImg,
       descAr: 'عيادات مجهزة بكراسي أسنان إيطالية مريحة وشاشات عرض تفاعلية لمراجعة خطة ابتسامتك مع الاستشاري بدقة متناهية وفي خصوصية تامة.',
       descEn: 'Private suites with ergonomic dental suites and displays for reviewing your treatment simulation.',
       featureAr: 'كاميرات iTero الرقمية بدقة ميكرونية فائقة',
@@ -49,7 +53,7 @@ export const TechnologySection: React.FC = () => {
       nameEn: 'Central Sterilization Laboratory',
       tagAr: 'معايير المستشفيات العالمية Class B',
       tagEn: 'Hospital-Grade German Class B',
-      image: '/src/assets/images/clinic_sterilization_lab_1791362604243.jpg',
+      image: sterilizationLabImg,
       descAr: 'نظام تعقيم ألماني أوتوماتيكي من الفئة Class B مع تتبع مشفر بالباركود لكل أداة طبية لضمان أمان صحي وبيولوجي 100% لكل مراجع.',
       descEn: 'Automated Class B autoclaves with digital barcode instrument verification ensuring total sterility.',
       featureAr: 'أدوات مغلفة فردية تُفتح أمام المراجع في كل زيارة',
@@ -62,7 +66,7 @@ export const TechnologySection: React.FC = () => {
       nameEn: 'Painless Laser & Piezosurgery Unit',
       tagAr: 'علاج بدون ألم أو وخز إبر',
       tagEn: 'Needle-Free Water Laser',
-      image: '/src/assets/images/dental_scan_technology_1791358719900.jpg',
+      image: dentalScanImg,
       descAr: 'ليزر مائي متطور يقطع الأنسجة الصلبة والرخوة بالماء والضوء بدون اهتزاز أو حرارة مع تسريع الالتئام والتعافي التام خلال 24-48 ساعة.',
       descEn: 'Advanced water laser eliminating drill vibrations and needles with fast healing within 24-48h.',
       featureAr: 'تسريع الالتئام وانعدام النزيف بعد الإجراءات',

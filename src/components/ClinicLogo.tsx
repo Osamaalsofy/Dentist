@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useClinic } from '../context/ClinicContext';
+import exactLogoPath from '../assets/images/exact_al_yaqeen_logo_1791363408690.jpg';
 
 interface ClinicLogoProps {
   className?: string;
@@ -20,8 +21,6 @@ export const ClinicLogo: React.FC<ClinicLogoProps> = ({
     md: 'h-12',
     lg: 'h-16',
   };
-
-  const exactLogoPath = '/src/assets/images/exact_al_yaqeen_logo_1791363408690.jpg';
 
   return (
     <div className={`flex items-center gap-3 select-none ${className}`}>

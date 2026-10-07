@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { useClinic } from '../context/ClinicContext';
 import { Camera, ShieldCheck, HeartPulse, Award, Check } from 'lucide-react';
+import clinicInteriorImg from '../assets/images/clinic_interior_luxury_1791358566335.jpg';
+import dentalScanImg from '../assets/images/dental_scan_technology_1791358719900.jpg';
+import smileCaseVeneersImg from '../assets/images/smile_case_veneers_1791358700455.jpg';
 
 export const WhyUs: React.FC = () => {
   const { isRTL, scrollToBooking } = useClinic();
@@ -23,7 +26,7 @@ export const WhyUs: React.FC = () => {
         ar: 'استشاريون معتمدون يشرفون شخصياً على كل خطوة علاجية',
         en: 'Board-certified consultants directly overseeing every procedure',
       },
-      image: '/src/assets/images/clinic_interior_luxury_1791358566335.jpg',
+      image: clinicInteriorImg,
     },
     {
       id: 'technology',
@@ -41,7 +44,7 @@ export const WhyUs: React.FC = () => {
         ar: 'محاكاة ثلاثية الأبعاد فورية للنتيجة قبل أن نبدأ بأي إجراء',
         en: 'Immediate 3D simulation of your smile before beginning',
       },
-      image: '/src/assets/images/dental_scan_technology_1791358719900.jpg',
+      image: dentalScanImg,
     },
     {
       id: 'sterilization',
@@ -59,7 +62,7 @@ export const WhyUs: React.FC = () => {
         ar: 'أدوات معقمة فردية ومغلفة تُفتح أمام ناظريك في كل زيارة',
         en: 'Individually barcoded sterile kits unsealed in front of you',
       },
-      image: '/src/assets/images/clinic_interior_luxury_1791358566335.jpg',
+      image: clinicInteriorImg,
     },
     {
       id: 'guarantee',
@@ -77,7 +80,7 @@ export const WhyUs: React.FC = () => {
         ar: 'برامج تقسيط 0% مرنة وموافقة تأمين فورية',
         en: 'Zero-interest installment options and instant insurance billing',
       },
-      image: '/src/assets/images/smile_case_veneers_1791358700455.jpg',
+      image: smileCaseVeneersImg,
     },
   ];
 

@@ -8,6 +8,8 @@ import {
   Phone
 } from 'lucide-react';
 
+import coupleImage from '../assets/images/hero_saudi_couple_smile_1791366870952.jpg';
+
 export const Hero: React.FC = () => {
   const {
     config,
@@ -16,7 +18,6 @@ export const Hero: React.FC = () => {
   } = useClinic();
 
   const ArrowIcon = isRTL ? ArrowLeft : ArrowRight;
-  const coupleImage = '/src/assets/images/hero_saudi_couple_smile_1791366870952.jpg';
 
   return (
     <section className="relative min-h-[85vh] lg:min-h-[92vh] flex flex-col justify-center overflow-hidden bg-slate-900 pt-24 pb-16 lg:pt-28 lg:pb-20">

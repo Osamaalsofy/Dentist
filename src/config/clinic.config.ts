@@ -1,4 +1,12 @@
 import { ClinicConfig } from '../types/clinic';
+import heroManImg from '../assets/images/hero_saudi_man_smile_1791358543798.jpg';
+import heroWomanImg from '../assets/images/hero_saudi_woman_smile_1791358555912.jpg';
+import doctorOrthoImg from '../assets/images/doctor_orthodontist_man_1791358585793.jpg';
+import doctorCosmeticImg from '../assets/images/doctor_cosmetic_woman_1791358600156.jpg';
+import teethBeforeVeneersImg from '../assets/images/teeth_before_veneers_1791364661992.jpg';
+import teethAfterVeneersImg from '../assets/images/teeth_after_veneers_1791364671669.jpg';
+import teethBeforeStainedImg from '../assets/images/teeth_before_stained_1791364637973.jpg';
+import teethAfterCleanImg from '../assets/images/teeth_after_clean_1791364647765.jpg';
 
 // Primary Default Clinic: Al-Yaqeen Specialized Dental & Orthodontic Complex
 export const alYaqeenClinicConfig: ClinicConfig = {
@@ -36,8 +44,8 @@ export const alYaqeenClinicConfig: ClinicConfig = {
       ar: 'نجمع بين فن طب الأسنان التجميلي وأحدث تقنيات التشخيص الرقمي ثلاثي الأبعاد في بيئة هادئة ومريحة بمعايير تعقيم عالمية.',
       en: 'Merging cosmetic dental artistry with precision 3D digital diagnostics in a tranquil, world-standard clinical sanctuary.',
     },
-    manImage: '/src/assets/images/hero_saudi_man_smile_1791358543798.jpg',
-    womanImage: '/src/assets/images/hero_saudi_woman_smile_1791358555912.jpg',
+    manImage: heroManImg,
+    womanImage: heroWomanImg,
     statFloat: {
       number: '+24,000',
       label: {
@@ -319,7 +327,7 @@ export const alYaqeenClinicConfig: ClinicConfig = {
       roleEn: 'Senior Consultant Orthodontist',
       specialty: 'تقويم الأسنان الرقمي وحالات الإنفزلاين المعقدة',
       specialtyEn: 'Digital Orthodontics & Complex Invisalign Cases',
-      photo: '/src/assets/images/doctor_orthodontist_man_1791358585793.jpg',
+      photo: doctorOrthoImg,
       bio: 'استشاري حاصل على البورد الأمريكي والبورد السعودي في تقويم الأسنان، خبرة تزيد عن 16 عاماً في تصميم الابتسامات وعلاج حالات عدم تناسق الفكين.',
       bioEn: 'American Board & Saudi Board Certified Consultant Orthodontist with over 16 years specializing in 3D digital smile design and craniofacial mechanics.',
       experienceYears: 16,
@@ -340,7 +348,7 @@ export const alYaqeenClinicConfig: ClinicConfig = {
       roleEn: 'Consultant Prosthodontist & Aesthetic Dentist',
       specialty: 'عدسات الفينير وابتسامة هوليوود وإعادة تأهيل الفم الكامل',
       specialtyEn: 'Porcelain Veneers & Full Mouth Aesthetic Rehabilitation',
-      photo: '/src/assets/images/doctor_cosmetic_woman_1791358600156.jpg',
+      photo: doctorCosmeticImg,
       bio: 'استشارية معتمدة من جامعة جنيف، رائدة في تقنيات تصميم الابتسامة الرقمية فائقة الحذر (Minimal Prep Veneers)، قامت بتصميم أكثر من 4,000 ابتسامة متألقة.',
       bioEn: 'University of Geneva graduate and specialist in ultra-conservative Digital Smile Design (DSD), having designed over 4,000 radiant smiles.',
       experienceYears: 14,
@@ -361,7 +369,7 @@ export const alYaqeenClinicConfig: ClinicConfig = {
       roleEn: 'Consultant Oral Surgeon & Implantologist',
       specialty: 'الزراعة الفورية الموجهة بالحاسوب وبناء العظام المعقد',
       specialtyEn: 'Computer-Guided Implants & Advanced Bone Regeneration',
-      photo: '/src/assets/images/hero_saudi_man_smile_1791358543798.jpg',
+      photo: heroManImg,
       bio: 'استشاري حاصل على الزمالة الملكية البريطانية، متخصص في زراعة الأسنان الفورية بدون شق جراحي وتقنيات الرفع المجهري للجيوب الأنفية.',
       bioEn: 'Fellow of the Royal College of Surgeons (UK) specializing in flapless computer-guided immediate dental implants and sinus lift micro-surgery.',
       experienceYears: 15,
@@ -381,7 +389,7 @@ export const alYaqeenClinicConfig: ClinicConfig = {
       roleEn: 'Senior Specialist Pediatric Dentist',
       specialty: 'العلاج بالغاز الضاحك والوقاية المبكرة للأطفال',
       specialtyEn: 'Nitrous Oxide Sedation & Early Interceptive Care',
-      photo: '/src/assets/images/hero_saudi_woman_smile_1791358555912.jpg',
+      photo: heroWomanImg,
       bio: 'متخصصة في توفير تجربة طبية مرحة للأطفال دون خوف، معتمدة في تقنيات التهدئة الواعية ورعاية أسنان ذوي الاحتياجات الخاصة.',
       bioEn: 'Specialist in child-friendly, trauma-free dentistry certified in conscious sedation and special-needs pediatric oral healthcare.',
       experienceYears: 11,
@@ -404,8 +412,8 @@ export const alYaqeenClinicConfig: ClinicConfig = {
       category: 'veneers',
       duration: 'جلستان خلال 6 أيام',
       durationEn: '2 visits within 6 days',
-      beforeImg: '/src/assets/images/teeth_before_veneers_1791364661992.jpg',
-      afterImg: '/src/assets/images/teeth_after_veneers_1791364671669.jpg',
+      beforeImg: teethBeforeVeneersImg,
+      afterImg: teethAfterVeneersImg,
       notes: 'علاج تصبغات حادة وتكسر حواف الأسنان مع الحفاظ الكامل على المينا الطبيعية بدون ألم.',
       notesEn: 'Correction of severe tetracycline stains and enamel fractures preserving natural tooth structure.'
     },
@@ -418,8 +426,8 @@ export const alYaqeenClinicConfig: ClinicConfig = {
       category: 'whitening',
       duration: 'جلسة واحدة (45 دقيقة)',
       durationEn: 'Single 45-minute visit',
-      beforeImg: '/src/assets/images/teeth_before_stained_1791364637973.jpg',
-      afterImg: '/src/assets/images/teeth_after_clean_1791364647765.jpg',
+      beforeImg: teethBeforeStainedImg,
+      afterImg: teethAfterCleanImg,
       notes: 'إزالة التكلسات والبلاك واصفرار القهوة وتفتيح 7 درجات على مقياس VITA بدون حساسية.',
       notesEn: 'Removal of stubborn plaque, calculus and stains; achieving 7 shades lightening with zero sensitivity.'
     },
@@ -432,8 +440,8 @@ export const alYaqeenClinicConfig: ClinicConfig = {
       category: 'implants',
       duration: 'جلسة جراحية موجهة',
       durationEn: 'Single guided surgical appointment',
-      beforeImg: '/src/assets/images/teeth_before_veneers_1791364661992.jpg',
-      afterImg: '/src/assets/images/teeth_after_clean_1791364647765.jpg',
+      beforeImg: teethBeforeVeneersImg,
+      afterImg: teethAfterCleanImg,
       notes: 'استعادة الأسنان المفقودة بحمائية كاملة للثة المحيطة مع تطابق دقيق للون الأسنان الطبيعية.',
       notesEn: 'Restoration of missing teeth with natural gum contour and anatomical translucency.'
     },
@@ -446,8 +454,8 @@ export const alYaqeenClinicConfig: ClinicConfig = {
       category: 'orthodontics',
       duration: '10 أشهر',
       durationEn: '10 months',
-      beforeImg: '/src/assets/images/teeth_before_stained_1791364637973.jpg',
-      afterImg: '/src/assets/images/teeth_after_veneers_1791364671669.jpg',
+      beforeImg: teethBeforeStainedImg,
+      afterImg: teethAfterVeneersImg,
       notes: 'إعادة اصطفاف الأسنان وتفتيح اللون مع حماية اللثة وتنسيق خط الابتسامة بالكامل.',
       notesEn: 'Complete alignment correction and radiant brightening with perfect symmetry.'
     }
